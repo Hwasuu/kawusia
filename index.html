@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kawa - strona główna</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#about">O kawie</a></li>
+        <li><a href="#types">Rodzaje kawy</a></li>
+        <li><a href="#gallery">Galeria</a></li>
+        <li><a href="#contact">Kontakt</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="about">
+      <h1>O kawie</h1>
+      <p>Kawa jest jednym z najpopularniejszych napojów na świecie. Pochodzi z Etiopii i jest produkowana z ziaren kawowca. Kawa ma wiele korzyści zdrowotnych, w tym poprawę skupienia i koncentracji oraz redukcję ryzyka chorób serca.</p>
+    </section>
+
+    <section id="types">
+      <h2>Rodzaje kawy</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Rodzaj kawy</th>
+            <th>Opis</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Espresso</td>
+            <td>Silne, małe porcje kawy, które są parzone pod wysokim ciśnieniem. Idealne do przygotowania kaw z mlekiem.</td>
+          </tr>
+          <tr>
+            <td>Americano</td>
+            <td>Espresso z dodatkiem gorącej wody.</td>
+          </tr>
+          <tr>
+            <td>Cappuccino</td>
+            <td>Espresso z mlekiem spienionym w stosunku 1:1:1.</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section id="gallery">
+      <h2>Galeria</h2>
+      <div class="gallery">
+        <img src="espresso.jpg" alt="Espresso">
+        <img src="Americano.jpg" alt="Americano">
+        <img src="Capuccino.jpeg" alt="Cappuccino">
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>Kontakt</h2>
+      <form>
+        <label for="name">Imię i nazwisko:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Adres e-mail:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="message">Wiadomość:</label>
+        <textarea id="message" name="message" required></textarea>
+
+        <button type="submit">Wyślij</button>
+      </form>
+    </section>
+   </main>
+  </body>
+</html>
+   
